@@ -63,6 +63,7 @@ blueos_board("esp32c6_devkitc_1") {
   default = [
     "//apps/shell:shell",
     "//apps/example/agent_loop:agent_loop",
+    "//apps/example/gdma_test:gdma_test_example",
     "//apps/example/wifi:wifi_example",
   ]
 
